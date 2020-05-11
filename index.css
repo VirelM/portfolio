@@ -107,7 +107,7 @@ nav ul.nav {
 
 header {
     padding: 12% 0;
-    background-image: url(/imgs/code_writing.jpg);
+    background-image: url(./imgs/code_writing.jpg);
     color: #33cc33;
     background-color: rgba(20, 17, 17, 0.5);
     background-blend-mode: multiply;
@@ -311,7 +311,7 @@ ul{
     }
 
     header{
-        background-image: url(/imgs/code_writing_medium.jpg);
+        background-image: url(./imgs/code_writing_medium.jpg);
     }
 
     #profile_pic{
