@@ -1,0 +1,1 @@
+The header image does not show up in github pages. It works on live server though.
