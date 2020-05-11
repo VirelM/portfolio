@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>HTML wireframe</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/4a6dce6ef9.css">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Montserrat:bold">
+    <script src="https://kit.fontawesome.com/1aab48ed52.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+    <nav role="navigation">
+      <a class="nav_link" href="#about">About Me</a>
+      <a class="nav_link" href="#projects">Projects</a>
+      <a class="nav_link" href="#skills">Favourites</a>
+      <a class="nav_link" href="#contact">Contact</a>
+      <ul class="nav hidden">
+        <li class="nav-item"><a class="ulLinks" href="#about">About</a></li>
+        <li class="nav-item"><a class="ulLinks" href="#skills">Skills</a></li>
+        <li class="nav-item"><a class="ulLinks" href="#projects">Projects</a></li>
+        <li class="nav-item"><a class="ulLinks" href="#contact">Contact</a></li>
+      </ul>
+      <div id="hamburger-menu" class="">
+        <div class="btn-line"></div>
+        <div class="btn-line"></div>
+        <div class="btn-line"></div>
+      </div>
+    </nav>
+    <main role="main">
+        <header role="banner">
+            <h1>Virel Montes</h1>
+            <h2>Web Developer</h2>
+            <p>Welcome this is my digital portfolio. This is where I showcase all my cool stuff.</p>
+        </header>
+
+        <section id="about" class="about_me">
+          <div class="pic_container">
+            <p class="firstAbout">I like games, technology, music, I am aspiring code-monkey based in LA, California. I like challenges that come with coding. I am very proud to see code play out like <a href="https://www.youtube.com/watch?v=IvUU8joBb1Q">Wintergatan - Marble Machine</a> when everything just clicks. I am really passionate about working on a team.<br><br><i class="fas fa-podcast"></i>I like listening to Devchat.tv</p>
+            <img id="profile_pic" src="./imgs/IMG_2020.jpg">
+          </div>
+
+          <div class="about2nd-container clear">
+            <div>
+              <p class="">When I was six the first computer in my family was something like this: </p>
+              <img class="dell" src="./imgs/dell_computer.jpg">
+            </div>
+            <p id="jumpstart" class="innerAbout"> I would play educational games like Jumpstart  Advanced 1st grade and 2nd grade. Those were good games. I remember being in the 5th grade thinking, "I am an amazing 1st grader."</p>
+          </div>
+            
+        </section>
+
+       
+        <section id="projects">
+            <h3>Projects</h3>
+            <div class="projects-container">
+              <article>
+                <h5>Avengers-Quiz</h5>
+                <img class="project-img" src="./imgs/Avengers-quiz-portfolio.jpg"><br>
+                <a href="https://thinkful-ei-orka.github.io/virel-bookmarks-app/" class="projects_links">Live</a>
+                <a href="https://github.com/thinkful-ei-orka/virel-bookmarks-app" class="projects_links">Github</a>
+                <p>Would you like test your knowledge on the Avengers? Take this intermediate Avengers quiz. It's a multiple choice quiz. The app displays active scoring.</p>
+              </article>
+              <article>
+                <h5>Bookmark-App</h5>
+                <img class="project-img" src="./imgs/bookmark.JPG"><br>
+                <a href="https://thinkful-ei-orka.github.io/virel-bookmarks-app/" class="projects_links">Live</a>
+                <a href="https://github.com/thinkful-ei-orka/virel-bookmarks-app" class="projects_links">Github</a>
+                <p>An app to save your bookmarks. Don't want to overburden your web browser with bookmarks you can use this website. You can add a rating. You can add a description.</p>
+              </article>
+              <article>
+                <h5>Comming Soon...</h5>
+                <img class="project-img" src="./imgs/checkeredBG.jpg"><br>
+                <a href="https://github.com/VirelM" class="projects_links">Live</a>
+                <a href="https://github.com/VirelM" class="projects_links">Github</a>
+                <p></p>
+              </article>
+            </div>
+        </section>
+        
+        <section id="skills">
+            <h3>Favourites Right Now</h3>
+            <hr>
+            <div class="fav_container">
+              <div class="fav-item">
+                <div class="fav-item-lvl2">
+                  <div>
+                    <i class="fab fa-3x fa-youtube"></i>
+                    <h5>Favourite Youtubers</h5>
+                    <p>
+                      <a href="https://www.youtube.com/user/numberphile">Numberphile</a><br>
+                      <a href="https://www.youtube.com/user/sentdex">Sentdex</a><br>
+                      <a href="https://www.youtube.com/user/Computerphile">Computerphile</a><br>
+                      <a href="https://www.youtube.com/user/onemeeeliondollars">Mark Rober</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="fav-item">
+                <div class="fav-item-lvl2">
+                  <div >
+                    <i class="fas fa-3x fa-laptop-code"></i>
+                    <h5>Favourite Frameworks</h5>
+                    <ul>
+                      <li>React</li>
+                      <li>NodeJs</li>
+                      <li>Django</li>
+                      <li>Jquery</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="fav-item">
+                <div class="fav-item-lvl2">
+                  <div>
+                    <i class="fas fa-3x fa-code"></i>
+                    <h5>Favourite Languages</h5>
+                    <ul>
+                      <li>Javascript</li>
+                      <li>HTml</li>
+                      <li>Css</li>
+                      <li>Python</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </section>
+    </main>
+    <footer role="content-info" id="contact"> 
+      <h3>Contact Info</h3>
+      <div class="contact_container">
+        <a class="contact_link" href="mailto:jovanymontesv@gmail.com"><i class="fas fa-envelope"></i></a>
+        <a class="contact_link" href="https://www.linkedin.com/in/virel-montes-86b809188/"><i class="fab fa-linkedin"></i></a>
+        <a class="contact_link" href="https://github.com/VirelM"><i class="fab fa-github-square"></i></a>
+      </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://use.fontawesome.com/4a6dce6ef9.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
